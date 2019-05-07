@@ -36,7 +36,9 @@ def hash_blocks(blocks):
   block_hash = hashlib.sha256(block_serialized).hexdigest()
   prev_hash = block_hash
 
+
  return prev_hash
+
 
 print("Original hash")
 print(hash_blocks([block_code, block_2, block_3]))
