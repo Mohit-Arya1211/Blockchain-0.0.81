@@ -43,5 +43,6 @@ def hash_blocks(blocks):
 print("Original hash")
 print(hash_blocks([block_code, block_2, block_3]))
 
+
 print("Tampering the data")
 block_code['transactions'][0] = 3
